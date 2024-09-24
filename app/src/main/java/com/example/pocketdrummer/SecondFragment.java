@@ -4,14 +4,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +37,7 @@ public class SecondFragment extends Fragment {
         itemList.add(new Item(getString(R.string.tom2), R.drawable.tom1e2, getString(R.string.descriptiontom2)));
         itemList.add(new Item(getString(R.string.surdo), R.drawable.surdo, getString(R.string.descriptionsurdo)));
 
-        Adaptador adapter = new Adaptador(requireContext(), itemList);
+        AdaptadorSecond adapter = new AdaptadorSecond(requireContext(), itemList);
         listView.setAdapter(adapter);
     }
 }
