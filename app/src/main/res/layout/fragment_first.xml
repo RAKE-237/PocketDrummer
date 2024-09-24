@@ -4,32 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bateria"
-    android:backgroundTint="#8D6D0101"
-    android:backgroundTintMode="src_over"
+    android:background="@android:color/white"
     tools:context=".FirstFragment">
 
-    <Spinner
-        android:id="@+id/selecao"
-        android:layout_width="300dp"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="326dp"
-        android:background="#5A5959"
+        android:src="@drawable/bateria"
+        android:scaleType="fitEnd"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vermelho_vinho"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:text="Pocket Drummer"
+        android:layout_marginTop="100dp"
+        android:text="@string/pocket_drummer"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/selecao"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/navigate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Go!"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selecao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

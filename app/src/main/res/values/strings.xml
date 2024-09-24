@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">PocketDrummer</string>
+    <string name="pocket_drummer">Pocket Drummer</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -7,6 +8,24 @@
     <string name="third_fragment_label">Third Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
-
+    <string-array name="spinner_options">
+        <item>História</item>
+        <item>Toque</item>
+    </string-array>
+    <string name="item1">Item 1</string>
+    <string name="item2">Item 2</string>
+    <string name="item3">Item 3</string>
+    <string name="item4">Item 4</string>
+    <string name="item5">Item 5</string>
+    <string name="item6">Item 6</string>
+    <string name="item7">Item 7</string>
+    <string name="item8">Item 8</string>
+    <string name="description1">Descrição do Item 1</string>
+    <string name="description2">Descrição do Item 2</string>
+    <string name="description3">Descrição do Item 3</string>
+    <string name="description4">Descrição do Item 4</string>
+    <string name="description5">Descrição do Item 5</string>
+    <string name="description6">Descrição do Item 6</string>
+    <string name="description7">Descrição do Item 7</string>
+    <string name="description8">Descrição do Item 8</string>
 </resources>
