@@ -9,23 +9,23 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string-array name="spinner_options">
-        <item>História</item>
+        <item>Descrição</item>
         <item>Toque</item>
     </string-array>
-    <string name="item1">Item 1</string>
-    <string name="item2">Item 2</string>
-    <string name="item3">Item 3</string>
-    <string name="item4">Item 4</string>
-    <string name="item5">Item 5</string>
-    <string name="item6">Item 6</string>
-    <string name="item7">Item 7</string>
-    <string name="item8">Item 8</string>
-    <string name="description1">Descrição do Item 1</string>
-    <string name="description2">Descrição do Item 2</string>
-    <string name="description3">Descrição do Item 3</string>
-    <string name="description4">Descrição do Item 4</string>
-    <string name="description5">Descrição do Item 5</string>
-    <string name="description6">Descrição do Item 6</string>
-    <string name="description7">Descrição do Item 7</string>
-    <string name="description8">Descrição do Item 8</string>
+    <string name="chimbal">Chimbal</string>
+    <string name="pratoataque">Prato de Ataque</string>
+    <string name="pratoconducao">Prato de Condução</string>
+    <string name="caixa">Caixa</string>
+    <string name="bumbo">Bumbo</string>
+    <string name="tom1">Tom 1</string>
+    <string name="tom2">Tom 2</string>
+    <string name="surdo">Surdo</string>
+    <string name="descriptionchimbal">O chimbal é um instrumento que consiste em dois pratos que trabalham em conjunto para conduzir a música. O baterista pode produzir sons, timbres e ritmos diferentes ao tocar o chimbal com a baqueta ou com o pedal. O chimbal também é uma ferramenta importante para marcar o compasso de uma música.</string>
+    <string name="descriptionpratoataque">O prato de ataque, também conhecido como "crash", é um prato de percussão que produz um som explosivo e acentuado quando golpeado. É frequentemente utilizado para marcar momentos importantes em uma música, como um solo ou um refrão.</string>
+    <string name="descriptionpratoconducao">O prato de condução, ou "ride", é um prato mais pesado que oferece um som mais contínuo e sustentado. É usado principalmente para manter o tempo, proporcionando uma sonoridade mais suave em comparação com o prato de ataque.</string>
+    <string name="descriptioncaixa">A caixa é um dos elementos mais expressivos da bateria, produzindo um som nítido e estalado. É frequentemente utilizada para marcar o tempo e adicionar dinâmicas, sendo um componente central em muitos estilos musicais.</string>
+    <string name="descriptionbumbo">O bumbo é um grande tambor que é tocado com um pedal. Produz um som profundo e poderoso, responsável por dar a base rítmica em muitos gêneros musicais, como rock e pop.</string>
+    <string name="descriptiontom1">O Tom 1 é um tambor mais compacto, conhecido por seu som ágil e penetrante. Ele é ideal para solos e fills, proporcionando uma resposta rápida que se destaca na mixagem, permitindo ao baterista explorar ritmos mais complexos e dinâmicos.</string>
+    <string name="descriptiontom2">O Tom 2 é um tambor maior, oferecendo um som mais profundo e encorpado. Ele é usado para adicionar uma riqueza tonal à batida, contribuindo para a base rítmica e ajudando a criar transições suaves entre as seções, enriquecendo a textura da música.</string>
+    <string name="descriptionsurdo">O surdo é um tambor de grande profundidade, muito utilizado em gêneros como samba e maracatu. Produz um som ressonante e cheio, essencial para a formação do ritmo em grupos percussivos.</string>
 </resources>

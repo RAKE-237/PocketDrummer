@@ -31,14 +31,14 @@ public class SecondFragment extends Fragment {
         ListView listView = view.findViewById(R.id.listView);
 
         itemList = new ArrayList<>();
-        itemList.add(new Item(getString(R.string.item1), R.drawable.chimbal, getString(R.string.description1)));
-        itemList.add(new Item(getString(R.string.item2), R.drawable.pratoataque, getString(R.string.description2)));
-        itemList.add(new Item(getString(R.string.item3), R.drawable.pratoconducao, getString(R.string.description3)));
-        itemList.add(new Item(getString(R.string.item4), R.drawable.caixa, getString(R.string.description4)));
-        itemList.add(new Item(getString(R.string.item5), R.drawable.bumbo, getString(R.string.description5)));
-        itemList.add(new Item(getString(R.string.item6), R.drawable.tom1e2, getString(R.string.description6)));
-        itemList.add(new Item(getString(R.string.item7), R.drawable.tom1e2, getString(R.string.description7)));
-        itemList.add(new Item(getString(R.string.item8), R.drawable.surdo, getString(R.string.description8)));
+        itemList.add(new Item(getString(R.string.chimbal), R.drawable.chimbal, getString(R.string.descriptionchimbal)));
+        itemList.add(new Item(getString(R.string.pratoataque), R.drawable.pratoataque, getString(R.string.descriptionpratoataque)));
+        itemList.add(new Item(getString(R.string.pratoconducao), R.drawable.pratoconducao, getString(R.string.descriptionpratoconducao)));
+        itemList.add(new Item(getString(R.string.caixa), R.drawable.caixa, getString(R.string.descriptioncaixa)));
+        itemList.add(new Item(getString(R.string.bumbo), R.drawable.bumbo, getString(R.string.descriptionbumbo)));
+        itemList.add(new Item(getString(R.string.tom1), R.drawable.tom1e2, getString(R.string.descriptiontom1)));
+        itemList.add(new Item(getString(R.string.tom2), R.drawable.tom1e2, getString(R.string.descriptiontom2)));
+        itemList.add(new Item(getString(R.string.surdo), R.drawable.surdo, getString(R.string.descriptionsurdo)));
 
         Adaptador adapter = new Adaptador(requireContext(), itemList);
         listView.setAdapter(adapter);
